@@ -1,0 +1,253 @@
+.wrap{
+    margin:0 auto;
+    width: 1200px;
+
+}
+.header{
+    background-color:#AA0601;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon img{
+    width: 80px;
+    margin-left: 88px;
+}
+.list ul{
+    display: flex;
+    margin-right: 88px;
+    color: white;
+}
+.list ul li{
+    margin: 10px;
+}
+.banner img{
+    width: 1200px;
+}
+.banner{
+    background-size: 100%;
+    background-image: url(img/72.png);
+    width: 1200px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.banner img{
+    width: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.banner h1{
+    font-size: 40px;
+    vertical-align: middle;   
+}
+
+
+
+h2{
+    font-size: 20px;
+}
+
+.footer{
+    height: 280px;
+    width: 1200px;
+    background-color:#AA0601;
+    margin: 0 auto;
+}
+.footerList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.footer_in{
+    margin:0 auto;
+    width: 70%;
+    
+}
+.footerIcon ul{
+    display: flex;
+}
+.footerIcon ul li img{
+    width: 40px;
+}
+.iconMargin{
+    margin-right: 30px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.phone p{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.phone img{
+    width: 30px;
+}
+.mail{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.copyIcon{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    margin:0 auto;
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyIcon img{
+    width: 50px;
+    margin-left: 8px;
+    margin-right: 30px;
+}
+.copyIcon p{
+    color: white;
+}
+.copyWord{
+    color: white;
+    display: flex;
+}
+.copyWord p{
+    margin-left: 10px;
+}
+@media (max-width: 1200px){
+    .wrap{
+        width: 100%;
+    }
+    .list ul li{
+        font-size: 20px;
+    }
+    
+    
+    .footer{
+        max-width: 100%;
+    }
+    .footer_in{
+        width: 90%;
+    }
+    .list ul li{
+        font-size: 14px;
+    }
+    .footerIcon ul li img{
+        width: 26px;
+    }
+    .phone p{
+        font-size: 20px;
+    }
+    .phone img{
+        width: 20px;
+    }
+    .copyIcon img{
+        display: none;
+    }
+    .copyright{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 767px){
+    .header{
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        padding:0px;
+        width: 100%;
+    }
+    .list ul li{
+        border: 1px solid white;
+ 
+        width: 50%;
+        margin: 0 0;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        line-height:40px;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    .list{
+        width: 100%;
+    }
+    .list ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+        text-align: center;
+        margin:10px 0px;
+ 
+    }
+    .icon img{
+        margin: 0;
+        width: 10%;
+        align-items: center;
+    }
+    .footerList .list{
+        display: none;
+    }
+    
+    .copyright{
+        display: block;
+    }
+    .copyWord{
+        font-size: 20px;
+        display: block;
+    }
+    .footer_in{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+   
+    .title{
+        margin-right: 0%;
+    }
+    .container{
+        padding-bottom: 50px;
+    }
+    .br{
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+    .phone{
+        width: 200px;
+    }
+    .footerIcon ul{
+        margin-bottom: 5px;
+    }
+    .footerIcon ul li img{
+        width: 40px;
+    }
+    .mail{
+        border-bottom: 0px;
+    }
+    .copyright{
+        border-top: 1px solid white;
+        padding-top: 20px;
+        font-size: 20px;
+       
+    }
+    .copyIcon{
+         margin-bottom: 10px;
+    } 
+    .copyWord p{
+        margin-bottom: 5px;
+        display: block;
+
+    }
+}

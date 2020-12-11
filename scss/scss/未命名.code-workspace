@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../aa"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/css/"
+			}
+		]
+	}
+}

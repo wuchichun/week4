@@ -1,0 +1,324 @@
+
+.banner img{
+    width: 1200px;
+}
+.banner{
+    background-size: 100%;
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner.png);
+    width: 1200px;
+    height: 520px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+    
+}
+.banner h1{
+    font-size: 44px;
+  
+}
+
+.title{
+    display: block;
+    margin-left: 600px;
+    color: #650300;
+    text-align: right;
+    font-weight: bold;
+}
+.title p{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+h2{
+    font-size: 36px;
+    color: #650300;
+    text-align: center;
+    margin: 40px;
+    font-weight: bold;
+}
+.serviceIcon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    align-items: start;
+    margin-bottom: 60px;
+}
+.iconIn{
+    width: 220px;
+    text-align: center;    
+}
+.iconIn h3{
+    font-size: 22px;
+    margin: 10px;
+    color: #650300;
+}
+.iconIn p{
+    text-align: left;
+}
+
+.iconIn img{
+    height: 70px;
+    justify-content: left;
+}
+.product{
+    width: 100%;
+}
+.productIn{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.productPhoto{
+    width: 500px;
+}
+.productIn p{
+    font-size: 44px;
+    color: #AA0601;
+    font-weight: bold;
+}
+.productIcon{
+    margin: 20px;
+}
+.centerWord{
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding: 0px;
+
+    margin: 0 10%;
+}
+.columreverse{
+    flex-direction: row-reverse;
+}
+.ft-W{
+    color: white;
+    padding-top: 60px;
+}
+.system{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/bg.png);
+    height: 500px;
+    background-size: cover;
+    background-position-y: -400px;
+    
+}
+.systemChoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.systemIn{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.systemIn p{
+    color: #AA0601;
+    font-size: 36px;
+    font-weight: bold;
+}
+.double{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-8.png);
+    background-size: cover;
+}
+.youth{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-9.png);
+    background-size: cover;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+
+}
+.personIn{
+    width: 220px;
+}
+.personIn img{
+    width: 220px;
+}
+.personName{
+    margin: 10px 0px;
+}
+.time{
+    margin: 10px 0px;
+    color: #707070;
+}
+.black{
+    color: black;
+}
+.connect{
+    width: 600px;
+    text-align: center;
+    margin: 0px auto ;
+    padding-top: 50px;
+}
+.connectUs{
+    text-align: left;
+    font-size: 20px;
+}
+.form{
+    margin-top: 10px;
+    text-align: left;
+}
+input{
+    width: 550px;
+    height: 40px;
+    margin-top: 5px;
+}
+.inputName{
+    margin-top: 20px;
+
+}
+label{
+    font-size: 14px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.opinion{
+    height: 200px;
+    vertical-align: top;
+}
+.agree{
+    display:flex;
+    align-items: center;
+    
+}
+#agree{
+    width: 16px;
+    text-align: left;
+}
+.submit{
+    background-color: #AA0601;
+    color: white;
+    width: 250px;
+    height: 45px;
+    justify-content: center;
+    border: none;
+    margin: 0px auto;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1200px){
+    .wrap{
+        width: 100%;
+    }
+    
+    .title{
+        
+        margin-left: 38%;
+    }
+    .banner{
+        background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true);
+        justify-content: right;
+        background-position: center center;
+        background-size: cover;
+        height: 840px;
+        width: 100%;
+    }
+    .serviceIcon{
+        flex-wrap: wrap;
+    }
+    .iconIn{
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    .columreverse{
+        flex-direction: row;
+    }
+    .productPhoto{
+        width: 350px;
+    }
+    .productIn p{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .productIcon{
+        width: 40px;
+    }
+    .person{
+        flex-wrap: wrap;
+    }
+    .personIn{
+        width: 45%;
+        margin-bottom: 40px;
+    }
+    .personIn img{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 767px){
+
+    
+
+   
+    .title{
+        margin-left: 13%;
+        margin-right: 0%;
+        width: 70%;
+        
+        
+    }
+    .title p{
+        font-size: 14px;
+    }
+    .title h1{
+        font-size: 32px;
+    }
+    .serviceIcon{
+        align-items: center;
+        flex-direction: column;
+    }
+    .productIn{
+        position:relative;
+        color: white;
+    }
+    .centerWord{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        
+        
+
+    }
+    .productIcon{
+        filter: brightness(300);
+    }
+    .productIn p{
+        color: white;
+
+    }
+    .productIn{
+        justify-content: center;
+    }
+    .systemChoice{
+        flex-direction: column;
+    }
+    .youth{
+        margin-top: 20px;
+    }
+    .system{
+        height: 800px;
+        background-size: cover;
+        background-position-y: 0px;
+    }
+    .person{
+        flex-direction: column;
+        align-items: center;
+    }
+    .connect{
+        width: 80%;
+    }
+    input{
+        width: 100%;
+    }
+}
